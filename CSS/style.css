@@ -4,6 +4,7 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
 }
 .container{
     display: flex;
@@ -29,7 +30,7 @@ input{
 form{
     margin-top: 50px;
 }
-button{
+.signin{
     color:#fff;
     background-color: rgb(0, 76, 175);
     font-size: 20px;
@@ -55,4 +56,15 @@ a{
 }
 #sign{
     color: rgb(0, 76, 175);
+}
+.language{
+    margin-top: 50px;
+}
+.buttons{
+    margin-top: 10px; 
+}
+.lan{
+    border: none;
+    padding: 5px 20px;
+    margin: 0;
 }
