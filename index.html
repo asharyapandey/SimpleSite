@@ -16,14 +16,14 @@
                 <div class="form">
                     <h2>Sign in <br> to Staff Tracker</h2>
                     <h4 class="op">Please enter your account info to proceed.</h4>
-                    <form action="POST">
+                    <div class="innerForm">
                         <h5 class="op">PHONE NUMBER</h5>
-                        <input type="text" name="phoneNumber">
+                        <input type="text" name="phoneNumber" id="phoneNumber" class="input">
                         <h5 class="op">PASSWORD       <a id="for" href="#">Forgot Password?</a></h5>
-                        <input type="text" name="password"><br>
+                        <input type="text" name="password" id="password" class="input"><br>
                         <button class="signin">Sign in</button>
                         <h6 class="op">Don't have an account?  <a id="sign" href="#"> Sign up</a></h6>
-                    </form>
+                    </div>
                 </div>
                 <div class="language">
                     <h5 class="op">WANT TO CHANGE LANGUAGE?</h5>
@@ -38,5 +38,6 @@
                 <img src="images/city2.jpeg" alt="">
             </div>
     </div>
+    <script src="JS/index.js"></script>
 </body>
 </html>
